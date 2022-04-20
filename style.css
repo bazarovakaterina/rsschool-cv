@@ -1,1 +1,63 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(239, 216, 214);
+}
+.contents{
+    width: 80%;
+    min-height: 100vh;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.sidebar {
+    padding: 3em;
+    grid-column: span 2;
+    background-color: #a27f78;}
+.sidebar-contents{
+    padding: 2rem 2rem;
+}
+.main{
+    padding: 2em;
+    grid-column: span 5;
+    background-color: #eee8dc;
+}
+.name{
+    color: #713616;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+.profession{
+    color: #cbcbc9;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.main h2{
+    margin-top: 3em;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+}
 
+.mypic {
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #131112;
+}
+.code{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(241, 235, 218);
+}
